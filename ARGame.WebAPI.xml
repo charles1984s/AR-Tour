@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ARGame.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ARGame.WebAPI.Controllers.BackpackController.#ctor(ARGame.Application.Shared.Backs.IBackpackApplicationService)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.BackpackController.GetALL(ARGame.Application.Shared.Dto.Backs.BackpackSearchDto)">
+            <summary>
+            取得用戶背包資料
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.BackpackController.Use(ARGame.Application.Shared.Dto.Backs.BackUseInputDto)">
+            <summary>
+            使用物品
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.BonusController.#ctor(ARGame.Application.Shared.Bonus.IBonusApplicationService)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.BonusController.Spend(ARGame.Application.Shared.Dto.Bonus.BonusSpendDto)">
+            <summary>
+            消費紅利
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.BonusController.Total(ARGame.Application.Shared.Dto.Bonus.BonusSearch)">
+            <summary>
+            查詢所有紅利
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.BonusController.StoreTotal(ARGame.Application.Shared.Dto.Bonus.BonusSearch)">
+            <summary>
+            查詢所有店家紅利
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.HintController.#ctor(ARGame.Core.Models.template_argameContext,ARGame.Application.Shared.Common.IStringCommon,Microsoft.Extensions.Options.IOptions{ARGame.Application.Application.Configuration.ARGameSettings})">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.HintController.Post(ARGame.Application.Dto.Hint.HintInputDto)">
+            <summary>
+            取得提示列表
+            </summary>
+        </member>
+        <member name="T:ARGame.WebAPI.Controllers.LocationController">
+            <summary>
+            場域
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.LocationController.Get">
+            <summary>
+            取得場域清單
+            </summary>
+        </member>
+        <member name="T:ARGame.WebAPI.Controllers.LoginController">
+            <summary>
+            登入
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.LoginController.#ctor(ARGame.Application.Shared.Login.ILogginAppService)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.LoginController.Post(ARGame.Application.Dto.Login.LoginInputDto)">
+            <summary>
+            使用者登入
+            </summary>
+        </member>
+        <member name="T:ARGame.WebAPI.Controllers.ScoreController">
+            <summary>
+            任務
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.ScoreController.#ctor(ARGame.Application.Shared.Score.IScoreAppService)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.ScoreController.NewScore(ARGame.Application.Shared.Dto.Score.NewScoreDto)">
+            <summary>
+            新增評分
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.StoreSetController.#ctor(ARGame.Application.Shared.IStoreSetAppService)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.StoreSetController.GetGoogleAd">
+            <summary>
+            取得google廣告密鑰
+            </summary>
+        </member>
+        <member name="T:ARGame.WebAPI.Controllers.TaskController">
+            <summary>
+            任務
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.#ctor(ARGame.Application.Shared.Tasks.ITaskApplicationService)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.Post(ARGame.Application.Dto.Tasks.TaskInputDto)">
+            <summary>
+            取得任務列表
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.Newbie">
+            <summary>
+            取得新手任務
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.Complete(ARGame.Application.Dto.Tasks.TaskCompleteInputDto)">
+            <summary>
+            完成任務
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.CompleteGoogleAds(ARGame.Application.Dto.Tasks.TaskCompleteInputDto)">
+            <summary>
+            看完廣告獲得點數
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.LastComplete(ARGame.Application.Shared.Dto.Tasks.LastTaskCompleteInputDto)">
+            <summary>
+            取得最後完成的任務所獲得的獎勵
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.NewbieStatus(ARGame.Application.Dto.Tasks.TaskSearchInput)">
+            <summary>
+            查詢新手任務完成狀態
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.GetTodayCompleteTasks(ARGame.Application.Dto.Tasks.TaskSearchInput)">
+            <summary>
+            查詢今日已完成任務
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.GetNoCompleteTaskCount(ARGame.Application.Dto.Tasks.TaskSearchInput)">
+            <summary>
+            查詢未完成任務數量
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.ShareCard(ARGame.Application.Shared.Dto.Card.ShareCardDto)">
+            <summary>
+            卡片分享
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TaskController.GetTaskBonusTimes">
+            <summary>
+            取得完成任務倍率
+            </summary>
+        </member>
+        <member name="T:ARGame.WebAPI.Controllers.TokenController">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TokenController.#ctor(ARGame.Application.Shared.Authorization.IAPIAppServise)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TokenController.Post(ARGame.Application.Dto.Token.TokenInputDto)">
+            <summary>
+            取得令牌
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TurntableController.#ctor(ARGame.Application.Shared.Turntable.ITurntableApplicationService)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TurntableController.GetAll">
+            <summary>
+            取得轉盤內容
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.TurntableController.TurntableReward(System.String)">
+            <summary>
+            轉動轉盤並取得結果
+            </summary>
+        </member>
+    </members>
+</doc>

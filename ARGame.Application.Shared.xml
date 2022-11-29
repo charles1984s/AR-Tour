@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ARGame.Application.Shared</name>
+    </assembly>
+    <members>
+        <member name="P:ARGame.Application.Shared.Dto.Backs.BackpackGetAllDto.Items">
+            <summary>
+            背包清單
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Backs.BackpackItem">
+            <summary>
+            背包物品
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Backs.BackpackItem.Id">
+            <summary>
+            物品ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Backs.BackpackItem.Name">
+            <summary>
+            背包名稱
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Backs.BackpackItem.FK_CardId">
+            <summary>
+            卡片ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Backs.BackpackItem.images">
+            <summary>
+            圖片
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Backs.BackpackSearchDto">
+            <summary>
+            背包搜尋輸入
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.BonusSpendDto.custId">
+            <summary>
+            用戶ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.BonusSpendDto.count">
+            <summary>
+            消費紅利數量
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.BonusSpendDto.StroreNo">
+            <summary>
+            商店代號
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Bonus.SpanBonusOutputDto">
+            <summary>
+            支付輸出
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.SpanBonusOutputDto.status">
+            <summary>
+            支付情況
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Bonus.StoreBonus">
+            <summary>
+            店家紅利點數
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.StoreBonus.StoreName">
+            <summary>
+            店家代號
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.StoreBonus.Count">
+            <summary>
+            累積點數
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Bonus.StoreBonusTotal">
+            <summary>
+            會員持有店家紅利點數
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Card.CardImageDto">
+            <summary>
+            卡片圖檔
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Card.CardImageDto.image">
+            <summary>
+            原圖
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Card.CardImageDto.Size">
+            <summary>
+            原圖檔案大小
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Card.CardImageDto.Thumbnail">
+            <summary>
+            縮圖
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Files.FileDto">
+            <summary>
+            檔案
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Files.FileDto.Id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Files.FileDto.Name">
+            <summary>
+            名稱
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Files.FileDto.url">
+            <summary>
+            連結
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Files.FileDto.size">
+            <summary>
+            檔案大小
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Files.VideoDto">
+            <summary>
+            影片資料
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Files.VideoDto.score">
+            <summary>
+            評分
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.ResponseDto">
+            <summary>
+            訊息回應
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.ResponseDto.Success">
+            <summary>
+            是否成功
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.ResponseDto.Message">
+            <summary>
+            錯誤時回應訊息
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Score.NewScoreDto">
+            <summary>
+            新增評分輸入
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Score.NewScoreDto.id">
+            <summary>
+            評分項目ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Score.NewScoreDto.ScoreType">
+            <summary>
+            評分型態
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Score.NewScoreDto.ScoreNumber">
+            <summary>
+            評分
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Score.NewScoreDto.CustId">
+            <summary>
+            會員編號
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.GoogleAdsOutputDto">
+            <summary>
+            google廣告密鑰
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.GoogleAdsOutputDto.GoogleAdAndroidSecret">
+            <summary>
+            Android密鑰
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.GoogleAdsOutputDto.GoogleAdiOSSecret">
+            <summary>
+            iOS密鑰
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Tasks.ARGameCompleteTasksDto.Id">
+            <summary>
+            完成任務的紀錄Id
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Tasks.ARGameCompleteTasksDto.TaskID">
+            <summary>
+            任務Id
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Tasks.ARGameCompleteTasksOutputDto.Tasks">
+            <summary>
+            完成任務清單
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Dto.Tasks.LastTaskCompleteInputDto">
+            <summary>
+            最後的完成任務輸入查詢
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Tasks.LastTaskCompleteInputDto.custId">
+            <summary>
+            客戶的ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Tasks.LocalTaskSearchDto.localID">
+            <summary>
+            區域ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Tasks.LocalTaskSearchDto.CustID">
+            <summary>
+            用戶ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Tasks.NoCompleteTasks.count">
+            <summary>
+            未完成任務數量
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.id">
+            <summary>
+            轉盤值ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.iconURL">
+            <summary>
+            轉盤內容Icon圖源
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.weights">
+            <summary>
+            權重
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.type">
+            <summary>
+            獎勵類型 3=>寶石 11=>卡片
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.quantity">
+            <summary>
+            獎勵為寶石時的數量
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableRewardDto.id">
+            <summary>
+            轉盤值ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableRewardDto.iconURL">
+            <summary>
+            獎勵Icon圖源
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableRewardDto.type">
+            <summary>
+            獎勵類型 3=>寶石 11=>卡片
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableRewardDto.quantity">
+            <summary>
+            獎勵為寶石時的數量
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Shared.Enum.ScoreTypeEnum">
+            <summary>
+            評分型態
+            1:產品,2:新聞,3:任務,4:影片
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Shared.Enum.ScoreTypeEnum.Prod">
+            <summary>
+            產品
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Shared.Enum.ScoreTypeEnum.News">
+            <summary>
+            訊息
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Shared.Enum.ScoreTypeEnum.Task">
+            <summary>
+            任務
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Shared.Enum.ScoreTypeEnum.Viedo">
+            <summary>
+            影片
+            </summary>
+        </member>
+        <member name="M:ARGame.Application.Shared.IStoreSetAppService.GetGoogleAds">
+            <summary>
+            取得google廣告密鑰
+            </summary>
+        </member>
+        <member name="M:ARGame.Application.Shared.Turntable.ITurntableApplicationService.getAll">
+            <summary>
+            取得轉盤內容
+            </summary>
+        </member>
+        <member name="M:ARGame.Application.Shared.Turntable.ITurntableApplicationService.turntableReward(System.String)">
+            <summary>
+            轉動轉盤並取得結果並回存
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Login.LoginInputDto.uuid">
+            <summary>
+            手機 UUID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Login.LoginInputDto.phone">
+            <summary>
+            手機 號碼
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Login.LoginInputDto.password">
+            <summary>
+            密碼
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Login.LoginInputDto.Nickname">
+            <summary>
+            暱稱
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.Reward.id">
+            <summary>
+            卡片ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.Reward.type">
+            <summary>
+            獎勵型態
+            </summary>
+            <remarks>鑽石 = 1,卡片 = 2</remarks> 
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.Reward.image">
+            <summary>
+            原圖
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.Reward.selfScore">
+            <summary>
+            自己的評分
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.Reward.score">
+            <summary>
+            平均評分
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.Reward.Thumbnail">
+            <summary>
+            縮圖
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Dto.Tasks.TaskCompleteInputDto">
+            <summary>
+            完成任務參數輸入
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskCompleteInputDto.Id">
+            <summary>
+            任務完成的ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskCompleteInputDto.custId">
+            <summary>
+            客戶的ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskCompleteOutputDto.rewards">
+            <summary>
+            最後獲取的獎勵
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskCompleteOutputDto.TaskID">
+            <summary>
+            完成任務的ID
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Dto.Tasks.TaskDto">
+            <summary>
+            任務
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.id">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.title">
+            <summary>
+            標題
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.image">
+            <summary>
+            圖片
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.video">
+            <summary>
+            影片
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.type">
+            <summary>
+            任務方式
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.point">
+            <summary>
+            通關預期取得鑽石點數
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.gameID">
+            <summary>
+            遊戲ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.ArGameProjectId">
+            <summary>
+            ARGame 專案ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.AR_DatabaseName">
+            <summary>
+            AR 專案資料庫名稱
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.AR_TargeImageName">
+            <summary>
+            AR 圖片對應名稱
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.Score">
+            <summary>
+            評分
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskDto.hints">
+            <summary>
+            提示
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Dto.Tasks.TaskDto.TaskTypeEnumm">
+            <summary>
+            任務型態
+            AR = 1 , 
+            選擇題 = 2,
+            是非題 = 3,
+            問券 = 4,
+            小遊戲 = 5,
+            google廣告 = 6
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Dto.Tasks.TaskDto.TaskTypeEnumm.AR">
+            <summary>
+            AR
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Dto.Tasks.TaskDto.TaskTypeEnumm.選擇題">
+            <summary>
+            選擇題
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Dto.Tasks.TaskDto.TaskTypeEnumm.是非題">
+            <summary>
+            是非題
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Dto.Tasks.TaskDto.TaskTypeEnumm.問券">
+            <summary>
+            問券
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Dto.Tasks.TaskDto.TaskTypeEnumm.小遊戲">
+            <summary>
+            小遊戲
+            </summary>
+        </member>
+        <member name="F:ARGame.Application.Dto.Tasks.TaskDto.TaskTypeEnumm.google廣告">
+            <summary>
+            google廣告
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Dto.Tasks.TaskSearchInput">
+            <summary>
+            新手任務輸入參數
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskSearchInput.CustId">
+            <summary>
+            會員ID
+            </summary>
+        </member>
+        <member name="T:ARGame.Application.Dto.Token.TokenInputDto">
+            <summary>
+            註冊令牌
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Token.TokenInputDto.Phone">
+            <summary>
+            帳號ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Token.TokenOutputDto.token">
+            <summary>
+            令牌
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -79,6 +79,11 @@
             累積點數
             </summary>
         </member>
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.StoreBonus.Logo_url">
+            <summary>
+            店家Logo
+            </summary>
+        </member>
         <member name="T:ARGame.Application.Shared.Dto.Bonus.StoreBonusTotal">
             <summary>
             會員持有店家紅利點數

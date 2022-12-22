@@ -69,9 +69,14 @@
             店家紅利點數
             </summary>
         </member>
-        <member name="P:ARGame.Application.Shared.Dto.Bonus.StoreBonus.StoreName">
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.StoreBonus.StoreId">
             <summary>
             店家代號
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Bonus.StoreBonus.StoreName">
+            <summary>
+            店家名稱
             </summary>
         </member>
         <member name="P:ARGame.Application.Shared.Dto.Bonus.StoreBonus.Count">

@@ -39,6 +39,16 @@
             查詢所有店家紅利
             </summary>
         </member>
+        <member name="M:ARGame.WebAPI.Controllers.EnterAdController.#ctor(ARGame.Application.Shared.EnterAd.IEnterAdAppService)">
+            <summary>
+            建構子
+            </summary>
+        </member>
+        <member name="M:ARGame.WebAPI.Controllers.EnterAdController.GetAll">
+            <summary>
+            取得進入廣告內容
+            </summary>
+        </member>
         <member name="M:ARGame.WebAPI.Controllers.HintController.#ctor(ARGame.Core.Models.template_argameContext,ARGame.Application.Shared.Common.IStringCommon,Microsoft.Extensions.Options.IOptions{ARGame.Application.Application.Configuration.ARGameSettings})">
             <summary>
             建構子
@@ -49,12 +59,12 @@
             取得提示列表
             </summary>
         </member>
-        <member name="T:ARGame.WebAPI.Controllers.LocationController">
+        <member name="M:ARGame.WebAPI.Controllers.LocationController.GetArea">
             <summary>
-            場域
+            取得區域清單
             </summary>
         </member>
-        <member name="M:ARGame.WebAPI.Controllers.LocationController.Get">
+        <member name="M:ARGame.WebAPI.Controllers.LocationController.GetLocation(ARGame.Application.Shared.Dto.Location.LocationInputDto)">
             <summary>
             取得場域清單
             </summary>

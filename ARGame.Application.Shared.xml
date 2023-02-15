@@ -114,6 +114,21 @@
             縮圖
             </summary>
         </member>
+        <member name="P:ARGame.Application.Shared.Dto.EnterAd.EnterAdGetAllDto.id">
+            <summary>
+            進入廣告ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.EnterAd.EnterAdGetAllDto.imageURL">
+            <summary>
+            進入廣告圖源
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.EnterAd.EnterAdGetAllDto.linkURL">
+            <summary>
+            進入廣告連結
+            </summary>
+        </member>
         <member name="T:ARGame.Application.Shared.Dto.Files.FileDto">
             <summary>
             檔案
@@ -147,6 +162,26 @@
         <member name="P:ARGame.Application.Shared.Dto.Files.VideoDto.score">
             <summary>
             評分
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Location.LocationGetAllAreaDto.id">
+            <summary>
+            區域ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Location.LocationGetAllAreaDto.title">
+            <summary>
+            區域名稱
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Location.LocationGetAllAreaDto.icon">
+            <summary>
+            區域圖標
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Location.LocationGetAllAreaDto.map">
+            <summary>
+            區域地圖
             </summary>
         </member>
         <member name="T:ARGame.Application.Shared.Dto.ResponseDto">
@@ -289,6 +324,11 @@
             獎勵為寶石時的數量
             </summary>
         </member>
+        <member name="M:ARGame.Application.Shared.EnterAd.IEnterAdAppService.getAll">
+            <summary>
+            取得進入廣告內容
+            </summary>
+        </member>
         <member name="T:ARGame.Application.Shared.Enum.ScoreTypeEnum">
             <summary>
             評分型態
@@ -313,6 +353,16 @@
         <member name="F:ARGame.Application.Shared.Enum.ScoreTypeEnum.Viedo">
             <summary>
             影片
+            </summary>
+        </member>
+        <member name="M:ARGame.Application.Shared.Location.ILocationAppService.GetArea">
+            <summary>
+            取得所有區域
+            </summary>
+        </member>
+        <member name="M:ARGame.Application.Shared.Location.ILocationAppService.GetLocation(ARGame.Application.Shared.Dto.Location.LocationInputDto)">
+            <summary>
+            取得場域
             </summary>
         </member>
         <member name="M:ARGame.Application.Shared.IStoreSetAppService.GetGoogleAds">
@@ -394,6 +444,11 @@
         <member name="P:ARGame.Application.Dto.Tasks.TaskCompleteInputDto.custId">
             <summary>
             客戶的ID
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Dto.Tasks.TaskCompleteInputDto.watchedTime">
+            <summary>
+            若是任務為影片，其觀看時長
             </summary>
         </member>
         <member name="P:ARGame.Application.Dto.Tasks.TaskCompleteOutputDto.rewards">

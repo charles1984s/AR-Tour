@@ -279,49 +279,50 @@
             未完成任務數量
             </summary>
         </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.id">
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableDto.id">
             <summary>
             轉盤值ID
             </summary>
         </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.iconURL">
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableDto.iconURL">
             <summary>
             轉盤內容Icon圖源
             </summary>
         </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.weights">
-            <summary>
-            權重
-            </summary>
-        </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.type">
-            <summary>
-            獎勵類型 3=>寶石 11=>卡片
-            </summary>
-        </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableGetAllDto.quantity">
+        <!-- Badly formed XML comment ignored for member "P:ARGame.Application.Shared.Dto.Turntable.TurntableDto.type" -->
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableDto.quantity">
             <summary>
             獎勵為寶石時的數量
             </summary>
         </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableRewardDto.id">
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableTempDto.id">
             <summary>
             轉盤值ID
             </summary>
         </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableRewardDto.iconURL">
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableTempDto.iconURL">
             <summary>
-            獎勵Icon圖源
+            轉盤內容Icon圖源
             </summary>
         </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableRewardDto.type">
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableTempDto.weights">
             <summary>
-            獎勵類型 3=>寶石 11=>卡片
+            權重
             </summary>
         </member>
-        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableRewardDto.quantity">
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableTempDto.type">
             <summary>
-            獎勵為寶石時的數量
+            獎勵類型 1=>寶石 2=>卡片
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableTempDto.bid">
+            <summary>
+            Bid
+            </summary>
+        </member>
+        <member name="P:ARGame.Application.Shared.Dto.Turntable.TurntableTempDto.quantity">
+            <summary>
+            獎勵的數量
             </summary>
         </member>
         <member name="M:ARGame.Application.Shared.EnterAd.IEnterAdAppService.getAll">
